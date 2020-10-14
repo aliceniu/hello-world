@@ -1,1 +1,2 @@
-# hello-world
+# Hello-World-Assignment
+Alice Niu

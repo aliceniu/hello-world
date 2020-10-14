@@ -1,2 +1,3 @@
-# Hello-World-Assignment
-Alice Niu
+# Alice Niu's Assignment
+
+Hello World FA2020

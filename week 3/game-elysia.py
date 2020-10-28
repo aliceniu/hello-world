@@ -10,10 +10,7 @@ player = {
     "career": "Excutor"
 }
 
-mapOfElysia = {
-    "location1" : "Lower Land",
-    "location2" : "Upper Land",
-}
+
 
 
 def printGraphic(name):
@@ -33,7 +30,7 @@ def printGraphic(name):
         print ' \___  (____  /__|_|  /\___  >  \____/ \_/  \___  >__|    '
         print '/_____/     \/      \/     \/                   \/        '
 
-    if (name == "Diamond"):
+    if (name == "diamond"):
         print '  \     |     /  '
         print '    _________    '
         print ' _ /_|_____|_\ _ '
@@ -353,6 +350,56 @@ def lowerLand(level):
         print "Do you want to keep going?"
         choiceOfPlayer()
         tasks()
+
+    if (level == 4): #task 4
+        print "-----------------------------------------------------------------------------"
+        print "You step out from the atrium and stand "
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+
+    if (level == 5): #task 5
+        print "-----------------------------------------------------------------------------"
+        print "You step out from the atrium and stand "
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+
+    if (level == 5): #task 5
+        print "-----------------------------------------------------------------------------"
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+
+    if (level == 6): #task 6
+        print "-----------------------------------------------------------------------------"
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+
+    if (level == 7): #task 7
+        print "-----------------------------------------------------------------------------"
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+
+    if (level == 8): #task 8
+        print "-----------------------------------------------------------------------------"
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+
+    if (level == 9): #task 9
+        print "-----------------------------------------------------------------------------"
+        print "Do you want to keep going?"
+        choiceOfPlayer()
+        tasks()
+    
+    
+
+
+    
+    
 
 
 def introStory():

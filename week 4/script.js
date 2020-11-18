@@ -6,12 +6,12 @@ function setup() {
   background(250);
   x = width / 2;
   y = height;
+  noLoop();
 }
 
 function draw() {
   
   let w = random(5);
-
   stroke(random(255),0,random(255));
 	strokeWeight(w);
   //fill in random color
@@ -38,4 +38,12 @@ function draw() {
      saveCanvas('myCanvas', 'png');
      }
 
+}
+
+function mousePressed() {
+  loop();
+}
+
+function mouseReleased() {
+  noLoop();
 }

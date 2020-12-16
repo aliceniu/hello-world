@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* #container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+}
+
+#container-s{
+  width: 50vw;
+  height: 100vh;
+  top: 0vh;
+  position: relative;
+  border: black solid 2px;
+
+}
+ */

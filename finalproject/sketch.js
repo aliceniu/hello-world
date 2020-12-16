@@ -34,12 +34,12 @@ let quateroval2Y = 520;
 
 function preload() {
   // preload() runs once
-  circleShape = loadImage('/assets/circle.png');
-  squareShape = loadImage('/assets/square.png');
-  triangleShape = loadImage('/assets/triangle.png');
-  semiOval = loadImage('/assets/semi-oval.png');
-  quaterOval1 = loadImage('/assets/quater-oval-1.png');
-  quaterOval2 = loadImage('/assets/quater-oval-2.png');
+  circleShape = loadImage('assets/circle.png');
+  squareShape = loadImage('assets/square.png');
+  triangleShape = loadImage('assets/triangle.png');
+  semiOval = loadImage('assets/semi-oval.png');
+  quaterOval1 = loadImage('assets/quater-oval-1.png');
+  quaterOval2 = loadImage('assets/quater-oval-2.png');
 }
 
 let circles = [];
